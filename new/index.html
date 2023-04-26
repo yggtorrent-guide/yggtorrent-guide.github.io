@@ -1,0 +1,685 @@
+    <!DOCTYPE html>
+<html>
+
+
+<!-- Mirrored from yggtorrent.do/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Apr 2023 09:42:38 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>YggTorrent - 1er Tracker BitTorrent Francophone</title>
+	<meta name="google-site-verification" content="jDrVJm_dqGUqNrWYcPdAhE3vCpxfcHBwoKN_V0cSV8A" />
+
+        <meta name="description" content="Inscrivez-vous et rejoignez gratuitement la plus grande communauté P2P francophone pour profiter de milliers de films, séries et logiciels en libre-service !" />
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="interkassa-verification" content="932c353776e6f12b0dac4f654bd3b9bf" />
+		<link rel="icon" href="favicon.ico" />
+
+		<!-- CSS Includes -->
+		<link rel="stylesheet"  href="assets/css/bootstrap.minaefe.css?cachekiller=1549578">
+		<link rel="stylesheet"  href="assets/css/animate.min.css">
+		<link rel="stylesheet"  href="assets/css/fontawesome.css">
+		<link rel="stylesheet"  href="assets/css/custom8cf1.css?cachekiller=15495851">
+		<link rel="stylesheet"  href="assets/css/master00b2.css?cachekiller=15497191">
+   	    <link rel="stylesheet"  href="assets/css/jnotifier.css">
+   	    <link rel="stylesheet"  href="assets/css/select2.min.css">
+	    <link rel="stylesheet"  href="assets/css/select2-bootstrap.min.css">
+		<!-- Fonts -->	
+		<link crossorigin="anonymous" media="all" href="https://fonts.googleapis.com/css?family=EB+Garamond|Montserrat:400,500,550,600,700|Roboto+Condensed:700|Open+Sans:600|Pangolin" rel="stylesheet">
+
+		<!-- Jquery -->
+	    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	
+</head>
+<body>
+
+	<div class="text-center text-white promoblock" onclick="window.location = 'https://www3.yggtorrent.do/user/donate'">
+	<img src="assets/img/bonus_star.png" class="promo-img">
+	<div class="promo-close">
+		<span class="ico_close"></span>
+		fermer
+	</div>
+	<div class="promo-content">
+       	<div class="promo-text">
+			<p class="p1">🥳 Bonus Go & Freeleech </p>
+			<p class="p2">Cliquez-ici pour réclamer vos Bonus !</p>
+       	</div>
+		<ul id="countdown" class="countdown">
+		    <li>
+		       <span class="days">00</span>
+		       <p class="days_text">Jours</p>
+		    </li>
+		    <li class="separator">:</li>
+		    <li>
+		       <span class="hours">00</span>
+		       <p class="hours_text">Heures</p>
+		    </li>
+		    <li class="separator">:</li>
+		    <li>
+		       <span class="minutes">00</span>
+		       <p class="minutes_text">Minutes</p>
+		    </li>
+		    <li class="separator">:</li>
+		    <li>
+		       <span class="seconds">00</span>
+		       <p class="seconds_text">Secondes</p>
+		    </li>
+	 	</ul>
+	</div>
+</div>
+<style type="text/css">
+	.promo-close {
+		float: right;
+		font-size: 14px;
+		font-weight: bold; 
+		padding: 5px; 
+		margin-top: 15px; 
+		margin-right: 20px; 
+		margin-left: -95px; 
+		cursor: pointer;
+		z-index: 999999999999999999;
+	}
+
+	.promo-content {
+		padding: 28px;
+	}
+
+	.promo-img {
+	    width: 190px;
+	    position: absolute;
+	    left: 260px;
+	    bottom: -48px;
+	    filter: grayscale(35%);
+	    opacity: 0.1;
+	}
+
+	.promo-text {
+		padding-bottom: 13px;
+	}
+
+	.promo-text .p1 {
+	    font-weight: bold;
+	    color: #fff;
+	    font-size: 28px;
+	    letter-spacing: -1px;
+	}
+
+	.promo-text .p2 {
+	    font-weight: bold;
+	    font-size: 16px;
+	    text-transform: uppercase;
+	    color: #49ff71;
+	    margin-top: 10px;
+	}
+
+	.promo-text > span {
+		font-size: 16px;
+    	color: #68debe;
+	}
+
+	/**.promo-close > span {
+		color: #ffffff;
+	}**/
+
+	/**.promoblock {
+		color: #fff !important;
+		display: none;
+    	cursor: pointer;
+    	background: #121212;
+	}**/
+
+	.promoblock {
+		display: none;
+	    position: fixed;
+	    bottom: 0px;
+	    width: 100%;
+	    z-index: 9999999999999;
+	    color: #fff !important;
+	    cursor: pointer;
+	    background: radial-gradient(circle at -4% -12.9%, rgb(10 10 10) 0.3%, rgb(33 35 42) 90.2%);
+	}
+
+
+	ul#countdown {
+	    list-style: none;
+	    padding: 0;
+	    display: block;
+	    margin-top: 5px;
+	}
+
+	ul#countdown li {
+		display: inline-block;
+	}
+
+	ul#countdown li span {
+	    font-size: 40px;
+	    line-height: 38px;
+	    font-weight: 800;
+	}
+
+	ul#countdown li.separator {
+	    margin: 0px 5px;
+	    font-size: 32px;
+	    line-height: 38px;
+	    vertical-align: top;
+	}
+
+	ul#countdown li p {
+	    margin-top: 3px;
+	    font-size: 12px;
+	    text-align: center;
+	}
+</style>
+<div id="connect">
+	<h3>Se connecter</h3>
+	<h5>Veuillez remplir tous les champs </h5>
+		
+	<form action="https://yggtorrent.do/user/login" method="post" id="user-login">
+		<input type="text" name="id" placeholder="Pseudo" required="" />
+		<input type="password" name="pass" placeholder="Mot de passe" required="" autocomplete="off"/>
+						<div id="ban_msg_login" style="display: none;"><center style="margin: 10px 10px; color: #ff3f3f; font-weight: bold;" >Votre compte a été banni! <br><span style="font-weight: bold; font-size: 15px; color: #582a2a;">Fin du ban : <span class="ban_duration"></span></span> <a id="ban_reason" style="font-weight:bold; font-size: 13px;">Voir le motif</a></center></div>
+		<div id="login_msg_pass" style="display: none;"><center style="margin: 10px 10px; color: #ff3f3f; font-weight: bold;" >Échec de connexion . Vérifiez vos identifiants<br></center></div>
+		<div id="login_msg_mail" style="display: none;"><center style="margin: 10px 10px; color: #ff3f3f; font-weight: bold;" >Vous n'avez pas confirmer votre compte à l'aide du mail que nous vous avons envoyé<br></center></div> 
+		<center id="resetpass" style=" margin: 10px 10px;  font-weight: bold;" ><a rel="nofollow" href="https://www3.yggtorrent.do/user/reset_password">Mot de passe oublié ?</a></center>
+		<input type="hidden" name="ci_csrf_token" value="">
+		
+										
+		<button type="submit">Connexion <i class="ico_unlock"></i></button>
+	</form>
+</div>
+<div class="fadeconnect"></div>
+
+	<div class="panel" id="top_panel">
+
+		<div class="ct">
+		
+
+			<ul>
+				<li><a data-connect="" title="" id="register"><span class="ico_lock"></span> S'identifier</a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/user/register" title=""><span class="ico_user-plus"></span> <strong>S'inscrire</strong></a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+<script type="text/javascript">
+	$(function(){
+		$(document).on('click','#panel-btn', function(){
+			if($('.panel-cache').is(':visible')){
+				$('.panel-cache').slideUp(400);
+			}else{
+				$('.panel-cache').slideDown(400);
+			}
+		});
+	});
+</script>
+
+
+<header role="header">
+	<div class="ct">
+		<a class="ico_navicon nav" data-nav="no"></a>
+		<a class="ico_user user" data-user="no"></a>
+		<a rel="nofollow" href="index.html" title="YggTorrent" class="logotype">
+			<img class="desktop" alt="YggTorrent - La communauté Bittorrent francophone !" src="assets/img/logov2.svg">
+			<img class="mobile" alt="YggTorrent - La communauté Bittorrent francophone !" src="assets/img/logov2.svg" style="margin-top: -5px">
+		</a>
+		<form class="search" action="https://www3.yggtorrent.do/engine/search" method="get">
+			<div class="input">
+				<input type="text" name="name" placeholder="Rechercher des torrents">
+				<button type="submit" name="do" value="search"><span class="ico_search"></span></button>
+			</div>
+		</form>
+		<style type="text/css">
+
+		/*** COUPE DU MONDE 2022 ***/
+		@media screen and (min-width:800px){
+			header .logotype img {
+				width: 120px !important;
+			    margin-top: -12px;
+			    margin-left: 20px;
+			}
+
+			header .search {
+			    width: calc(100% - 430px) !important;
+			    right: 240px !important;
+			}
+		}
+
+
+		.panel {
+			background-image: none !important;
+			background-color: #25272f !important;
+		}
+		.pulse {
+		  cursor: pointer;
+		  box-shadow: 0 0 0 rgba(94, 194, 218, 0.4);
+		  animation: pulse 1s infinite;
+		}
+		.pulse:hover {
+		  animation: none;
+		}
+
+		@-webkit-keyframes pulse {
+		  0% {
+		    -webkit-box-shadow: 0 0 0 0 rgba(94, 194, 218, 0.4);
+		  }
+		  70% {
+		      -webkit-box-shadow: 0 0 0 10px rgba(94, 194, 218, 0);
+		  }
+		  100% {
+		      -webkit-box-shadow: 0 0 0 0 rgba(94, 194, 218, 0);
+		  }
+		}
+		@keyframes pulse {
+		  0% {
+		    -moz-box-shadow: 0 0 0 0 rgba(94, 194, 218, 0.4);
+		    box-shadow: 0 0 0 0 rgba(94, 194, 218, 0.4);
+		  }
+		  70% {
+		      -moz-box-shadow: 0 0 0 10px rgba(94, 194, 218, 0);
+		      box-shadow: 0 0 0 10px rgba(94, 194, 218, 0);
+		  }
+		  100% {
+		      -moz-box-shadow: 0 0 0 0 rgba(94, 194, 218, 0);
+		      box-shadow: 0 0 0 0 rgba(94, 194, 218, 0);
+		  }
+		}
+		</style>
+		<a rel="nofollow" href="https://www3.yggtorrent.do/user/donate" class="donate pulse"><span class="ico_star"></span> Bonus Go & Freeleech </a>
+	</div>
+</header>
+
+<div id="top">
+	<div class="ct">
+		<nav role="navigation">
+			<ul>
+
+				<li class="color">  
+					<a rel="nofollow" class="title"  href="index.html"  title=""><span class="ico_home"></span> Accueil</a>
+				</li>
+				<li class="color">  
+					<a class="title" href="#"> Catégories</a>
+					<ul>
+						<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2145&amp;sub_category=all&amp;do=search">Films & Vidéos</a></li>
+						<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2140&amp;sub_category=all&amp;do=search">Ebook</a></li>
+						<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2139&amp;sub_category=all&amp;do=search">Audio</a></li>
+												<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2142&amp;sub_category=all&amp;do=search">Jeu vidéo</a></li>
+						<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2144&amp;sub_category=all&amp;do=search">Application</a></li>
+						<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2300&amp;sub_category=all&amp;do=search">Nulled</a></li>
+						<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2200&amp;sub_category=all&amp;do=search">Imprimante 3d</a></li>
+						<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2143&amp;sub_category=all&amp;do=search">GPS</a></li>
+						<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2141&amp;sub_category=all&amp;do=search">Emulation</a></li>
+					</ul>
+				</li>
+
+				<li class="color">  
+					<a class="title torrents" href="#"><span class="ico_download"></span> Torrents</a>
+					<ul>
+						<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?do=search">Rechercher un torrent</a></li>
+						<li><a rel="nofollow" href="https://www3.yggtorrent.do/top/day">Torrents du jour</a></li>
+						<li><a rel="nofollow" href="https://www3.yggtorrent.do/top/week">Torrents de la semaine</a></li>
+						<li><a rel="nofollow" href="https://www3.yggtorrent.do/top/month">Torrents du mois</a></li>
+						<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/mostseeded">Torrents rapides</a></li>
+						<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;do=search">Derniers torrents ajoutés</a></li>
+						<li><a rel="nofollow" href="https://www3.yggtorrent.do/user/upload_torrent">Uploader un torrent</a></li>
+						<li><a rel="nofollow" href="https://www3.yggtorrent.do/rss">Flux RSS</a></li>					
+					</ul>
+				</li>
+			
+				<li class="color"> 
+					<a rel="nofollow" class="title trends" href="https://www3.yggtorrent.do/torrents/exclus"><span class="ico_star"></span> Exclusivités</a>
+				</li>
+
+				<li class="color"> 
+					<a rel="nofollow" class="title" href="https://www3.yggtorrent.do/engine/mostcompleted" title=""><span class="ico_trophy"></span> Top 100	</a>
+				</li>
+			
+			<li class="color">  
+				<a class="title">Communauté</a>
+				<ul>
+					<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search_users">Rechercher un utilisateur</a></li>
+					<li><a rel="nofollow" href="https://www3.yggtorrent.do/forum/index.php?forums/proposer-un-fichier-%C3%A0-lupload.135/">Proposition d'upload</a></li>
+					
+				</ul>
+			</li>
+
+			<li class="color"> 
+				<a class="title" href="https://yggland.fr/FAQ-Tutos/" target="_blank">FAQ & Tuto</a>
+			</li>
+						<li class="color">  
+				<a class="title" rel="nofollow" href="https://www3.yggtorrent.do/rss">Flux RSS</a>
+				<ul>
+					<li><a rel="nofollow" href="https://www3.yggtorrent.do/rss">Comment ça fonctionne ?</a></li>
+					<li><a rel="nofollow" href="https://www3.yggtorrent.do/rss?parent_category=2145">Film/Vidéo</a></li>
+					<li><a rel="nofollow" href="https://www3.yggtorrent.do/rss?parent_category=2140">eBook</a></li>
+					<li><a rel="nofollow" href="https://www3.yggtorrent.do/rss?parent_category=2139">Audio</a></li>
+										<li><a rel="nofollow" href="https://www3.yggtorrent.do/rss?parent_category=2142">Jeu vidéo</a></li>
+					<li><a rel="nofollow" href="https://www3.yggtorrent.do/rss?parent_category=2144">Application</a></li>
+					<li><a rel="nofollow" href="https://www3.yggtorrent.do/rss?parent_category=2300">Nulled</a></li>
+					<li><a rel="nofollow" href="https://www3.yggtorrent.do/rss?parent_category=2200">Imprimante 3D</a></li>
+					<li><a rel="nofollow" href="https://www3.yggtorrent.do/rss?parent_category=2143">GPS</a></li>
+					<li><a rel="nofollow" href="https://www3.yggtorrent.do/rss?parent_category=2141">Emulation</a></li>
+				</ul>
+			</li>
+						<li class="color"> 
+				<a rel="nofollow" class="title" href="https://www3.yggtorrent.do/forum">Forum</a>
+			</li>
+		</ul>
+	</nav>
+</div>
+</div>
+
+<div class="back-cat class="active""></div>
+<div id="cat" class="active">
+	<div class="open"><span class="ico_chevron-left"></span> <strong>Sections</strong></div>
+	<ul> 
+	<style>
+	#cat ul > li.foot > ul > li:first-child a {
+		color: #95d6c8;
+	}
+	
+	#cat ul > li.foot > ul > li:first-child:before {
+		background: #8adecc;
+	}
+	</style>
+	    <li class="misc">
+			<ul>
+				<li></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/user/donate" style="color: #65e370; font-weight: bold;"><img src="data:image/png;base64,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" style="width: 16px;"> Télécharger en illimité<br> <em style="font-size: 9px; margin-left: 20px; color: #ffffff;font-weight: bold;">Bonus Go & Freeleech</em></a></li> 
+	
+				<!--<li><a rel="nofollow" target="_blank" href="https://t.me/yggtorrent_p2p" style="color: #ffffff; font-weight: bold;"><img src="/assets/img/t_icon.png">  Nous suivre sur t.me <br> <em style="font-size: 9px; margin-left: 20px; color: #91ffcc;font-weight: bold;">Recommandé</em></a></li>-->
+			<li><a rel="nofollow" target="_blank" href="https://www3.yggtorrent.do/engine/go_twitter" style="color: #ffffff; font-weight: bold;"><img src="assets/img/tw_icon.png">  S'abonner sur Twitter</a></li>
+			<li><a rel="nofollow" target="_blank" href="https://www3.yggtorrent.do/engine/go_telegram" style="color: #ffffff; font-weight: bold;"><img src="assets/img/t_icon.png">  Nous suivre sur t.me <br> <em style="font-size: 9px; margin-left: 20px; color: #91ffcc;font-weight: bold;">Recommandé</em></a></li> 
+
+
+			</ul>
+			<!--<ul>
+				<li></li>
+				<li><a rel="nofollow" target="_blank" href="https://t.me/yggtorrent" style="color: #ffffff; font-weight: bold;"><img src="/assets/img/t_icon.png">  Nous suivre sur t.me <br> <em style="font-size: 9px; margin-left: 20px; color: #91ffcc;font-weight: bold;">Recommandé</em></a></li> 
+				<li><a rel="nofollow" target="_blank" href="https://twitter.com/yggtorrent_p2p" style="color: #ffffff; font-weight: bold;"><img src="/assets/img/tw_icon.png">  S'abonner sur Twitter</a></li> 		
+			</ul>-->
+		</li>
+		<li class="film">
+			<ul>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2145&amp;sub_category=all&amp;do=search">Films & vidéos <span class="ico_film"></span></a></li>
+				<!--<li><a rel="nofollow" href="https://marmota.tw/" target="_blank" style="color: #6fe2c2;font-weight: bold;"> Regarder la télévision</a></li>-->
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2145&amp;sub_category=2178&amp;do=search">Animation</a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2145&amp;sub_category=2179&amp;do=search">Animation Série</a></li>        
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2145&amp;sub_category=2180&amp;do=search"">Concert</a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2145&amp;sub_category=2181&amp;do=search"">Documentaire</a></li>        
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2145&amp;sub_category=2182&amp;do=search"">Emission TV</a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2145&amp;sub_category=2183&amp;do=search"">Film</a></li>        
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2145&amp;sub_category=2184&amp;do=search"">Série TV</a></li>           
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2145&amp;sub_category=2185&amp;do=search"">Spectacle</a></li>      
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2145&amp;sub_category=2186&amp;do=search"">Sport</a></li>  
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2145&amp;sub_category=2187&amp;do=search"">Vidéo-clips</a></li>                              
+			</ul>
+		</li>   
+		<li class="livre">
+			<ul>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2140&amp;sub_category=all&amp;do=search">eBook <span class="ico_book"></span></a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2140&amp;sub_category=2151&amp;do=search">Audio</a></li>           
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2140&amp;sub_category=2152&amp;do=search">BDS</a></li>           
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2140&amp;sub_category=2153&amp;do=search">Comics</a></li>           
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2140&amp;sub_category=2154&amp;do=search">Livres</a></li>           
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2140&amp;sub_category=2155&amp;do=search">Manga</a></li>           
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2140&amp;sub_category=2156&amp;do=search">Presse</a></li>           
+			</ul>
+		</li>
+		<li class="audio">
+			<ul>   
+
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2139&amp;sub_category=all&amp;do=search">Audio <span class="ico_music"></span></a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2139&amp;sub_category=2147&amp;do=search">Karaoké</a></li>       
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2139&amp;sub_category=2148&amp;do=search">Musique</a></li>       
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2139&amp;sub_category=2150&amp;do=search">Podcast Radio</a></li>       
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2139&amp;sub_category=2149&amp;do=search">Samples</a></li>       
+			</ul>
+		</li>
+				<li class="jeu">
+			<ul>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2142&amp;sub_category=all&amp;do=search">Jeux vidéo <span class="ico_gamepad"></span></a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2142&amp;sub_category=2167&amp;do=search">Autre</a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2142&amp;sub_category=2159&amp;do=search">Linux</a></li>        
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2142&amp;sub_category=2160&amp;do=search">MacOS</a></li>        
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2142&amp;sub_category=2162&amp;do=search">Microsoft</a></li>        
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2142&amp;sub_category=2163&amp;do=search">Nintendo</a></li>        
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2142&amp;sub_category=2165&amp;do=search">Smartphone</a></li>        
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2142&amp;sub_category=2164&amp;do=search">Sony</a></li>        
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2142&amp;sub_category=2166&amp;do=search">Tablette</a></li>        
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2142&amp;sub_category=2161&amp;do=search">Windows</a></li>        
+			</ul>
+		</li>
+		<li class="app">
+			<ul>
+
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2144&amp;sub_category=all&amp;do=search">Applications <span class="ico_windows"></span></a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2144&amp;sub_category=2177&amp;do=search">Autre</a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2144&amp;sub_category=2176&amp;do=search">Formation</a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2144&amp;sub_category=2171&amp;do=search">Linux</a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2144&amp;sub_category=2172&amp;do=search">MacOS</a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2144&amp;sub_category=2174&amp;do=search">Smartphone</a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2144&amp;sub_category=2175&amp;do=search">Tablette</a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2144&amp;sub_category=2173&amp;do=search">Windows</a></li>
+			</ul>
+		</li>
+		<li class="nulled">
+			<ul>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2300&amp;sub_category=all&amp;do=search">Nulled<span class="ico_print"></span></a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2300&amp;sub_category=2304&amp;do=search">Divers</a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2300&amp;sub_category=2303&amp;do=search">Mobile</a></li>    
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2300&amp;sub_category=2302&amp;do=search">Scripts PHP & CMS</a></li>  
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2300&amp;sub_category=2301&amp;do=search">Wordpress</a></li>
+			</ul>
+		</li>
+		<li class="imprimante">
+			<ul>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2200&amp;sub_category=all&amp;do=search">Imprimante 3D<span class="ico_print"></span></a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2200&amp;sub_category=2201&amp;do=search">Objets</a></li>       
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2200&amp;sub_category=2202&amp;do=search">Personnages</a></li>       
+			</ul>
+		</li>
+		<li class="gps">
+			<ul>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2143&amp;sub_category=all&amp;do=search">GPS <span class="ico_map"></span></a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2143&amp;sub_category=2168&amp;do=search">Applications</a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2143&amp;sub_category=2169&amp;do=search">Cartes</a></li>        
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2143&amp;sub_category=2170&amp;do=search">Divers</a></li>        
+			</ul>
+		</li>
+		<li class="emu">
+			<ul>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2141&amp;sub_category=all&amp;do=search">Émulation <span class="ico_gamepad"></span></a></li>
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2141&amp;sub_category=2157&amp;do=search">Émulateur</a></li>       
+				<li><a rel="nofollow" href="https://www3.yggtorrent.do/engine/search?name=&amp;description=&amp;file=&amp;uploader=&amp;category=2141&amp;sub_category=2158&amp;do=search">ROM/ISO</a></li>       
+			</ul>
+		</li>
+	</ul>
+</div>
+
+
+    <!-- The modal -->
+    <div class="modal fade" id="flipFlop" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="modalLabel">Modal Title</h4>
+                </div>
+                <div class="modal-body">
+                    Modal content...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="container-fluid" id="middle">
+		<main class="ct" role="main">
+			<div class="row">
+
+				<div class="col-lg-12">
+
+					<div id="title">
+						<h1> Bienvenue sur Yggtorrent ! </h1>
+					</div>			
+
+					
+					<!-- Remove Contest Announce -->
+					<!--<script type="text/javascript">
+						$(function() {
+							$ca_wrapper = $('.contest-announce');
+							var _ca_cookie_name = 'remove_ca';
+							if(!Cookies.get(_ca_cookie_name)) {
+								$ca_wrapper.fadeIn(300);
+							}
+							$('#remove_contest_announce').on('click', function() {
+								Cookies.set(_ca_cookie_name, true, { expires: new Date(new Date().getTime() + 120 * 60 * 1000), domain: '.yggtorrent.gg' });
+								$ca_wrapper.fadeOut(300);
+							});
+						});
+					</script>-->
+					<!-- Contest Announce -->
+					<!--<div class="default contest-announce" style="display:none;overflow:hidden;margin-top: 15px;background:#27272738;padding:12px;color:white;font-weight:bold;font-size:14px;"> <strong style="color: #ffd36a;text-transform:uppercase;"><span class="ico_gift"></span> Concours 10/12/2018</strong> : <a style="color: #6ccbfc;" href="https://twitter.com/yggtorrent_com" target="_blank"><u>Suivez-nous sur Twitter</u></a> et retweetez <a style="color: #68ddc3;" href="https://twitter.com/yggtorrent_com/status/1071944241524498435" target="_blank"><u>ce Tweet</u></a> pour tenter de <u>gagner 300Go et 1 Jour de Freeleech</u> 
+						<img src="https://ww3.yggtorrent.gg/assets/uploaded_images/7685099f5d202cd9c7496d05a13c07b6.png" style="height: 16px;margin-left:2px;"> <a class="btn grey" id="remove_contest_announce" style=" float: right;color:#ededed;"><span class="ico_close" style=" "></span></a>  <a class="btn" href="https://twitter.com/yggtorrent_com" target="_blank"" style=" float: right;color:white;background:#40a8de;font-size:11px;margin-right:5px;font-weight:bold !important;">Accéder à notre Twitter !</a> 
+					</div>-->
+		
+					<!--<div style="background-color: #ffef9e; margin-top: 11px; padding: 11px;font-size: 15px;border-radius: 9px;text-align: center;box-shadow: 0 0 6px rgba(0, 0, 0, .3);/* margin: -21px -10px 20px -10px; */line-height: 22px;">
+						<b>Important : </b>Le nouveau nom de domaine du site est <strong>yggtorrent.se</strong>, n'oubliez pas de mettre à jour vos favoris ! <a href="https://twitter.com/yggtorrent_com" target="_blank"><strong>(suivez-nous sur Twitter)</strong></a>
+					</div>-->
+					<section class="content first" data-slidable>
+						<h2><span class="ico_info-circle"></span> Ajout de nouvelles catégories</h2>
+
+						<div class="default slidable" style="overflow:hidden" data-slidable="active">
+							<b><font size="4"><font color="#000000">Update du 29/03/2023: Serveur e-mail rétabli, il est de nouveau possible de reset son mot de passe.<br /><br />MAJ du 20/03/2023:</font><font color="#f12a2a"> Nouveau nom de domaine, la nouvelle adresse à ajouter en favoris est </font><a href="index.html"><font color="#414c4a">https://yggtorrent.do<br /></font></a></font></b><font size="4"><b><br /><font color="#000000">MAJ du 17/02/2023: </font></b><br />Comme demandé, de nouvelles sections ont été créées, quelques exemples:<br />Nulled-&gt;Wordpress<br />Nulled-&gt;Scripts PHP &amp; CMS<br />Imprimante 3D-&gt;Objets<br />Imprimante 3D-&gt;Personnages<br />etc...<br /><b><a href="https://www6.yggtorrent.lol/forum/index.php?threads/nouvelles-cat%C3%A9gories-nulled-et-imprimante-3d.88986/">Voir l'annonce sur le forum<br /></a><br /><a href="https://www6.yggtorrent.lol/forum/index.php?threads/sondage-proposition-de-cat%C3%A9gorie-plans-darchitecte.89119/"><font color="#f1c232">&gt;&gt; Ré</font></a></b><b><a href="https://www6.yggtorrent.lol/forum/index.php?threads/sondage-proposition-de-cat%C3%A9gorie-plans-darchitecte.89119/"><font color="#f1c232">pondre au sondage proposition de la catégorie plans d'architecte &lt;&lt; </font></a><br /><font color="#6aa84f">&gt;&gt; </font><span><a href="https://www3.yggtorrent.do/forum/index.php?threads/sondage-dire-merci-et-syst%C3%A8me-de-r%C3%A9putation-pour-les-uploaders.88991/"><font color="#6aa84f">Répondre au sondage concernant la fonctionnalité 'Dire merci' et le système de réputation. &lt;&lt;</font><br /></a></span><br /><span>Un peu de temps libre et disposé à aider le staff, <span><a href="https://www3.yggtorrent.do/forum/index.php?threads/staff-candidatures.70142/">c'est ici</a></span></span><br /><br /><u>Suivez-nous sur les réseaux sociaux:</u><br />Telegram: <a href="https://www6.yggtorrent.lol/engine/go_telegram">CLIQUER ICI<br /></a>Twitter: <a href="https://www6.yggtorrent.lol/engine/go_twitter">CLIQUER ICI</a><br />Mastodon: <a href="https://mamot.fr/@YggTorrent">CLIQUER ICI</a><br /><br />Pour immortaliser la<font color="#f1c232"> coupe du monde de la FIFA 2022</font>, vous pouvez télécharger les matchs en intégralité en <span><a href="https://www3.yggtorrent.do/engine/search?name=cdm22&amp;do=search&amp;order=desc&amp;sort=publish_date"><font color="#6d9eeb">cliquant ici</font></a></span><font color="#6d9eeb"><font color="#6d9eeb"> </font></font>(tag: CDM22).<br /></b><b><br /></b><b><img src="../www.zupimages.net/viewer2be7.html" alt="oj7j.jpg" /><br /><br />Si vous n'êtes pas adepte du téléchargement torrent et que vous débutez, Yggland (accessible <a href="https://yggland.fr/"><font color="#6d9eeb">ici</font></a>) vous propose des ressources qui vous permettront d'y voir plus clair et de vous aiguiller - notamment sur le choix des clients Torrent. <br /><br /><font color="#000000">Les Teams internes <span><a href="https://www3.yggtorrent.do/forum/index.php?threads/info-teams-internes.82155/">infos ici</a></span> - <span><a href="https://www3.yggtorrent.do/forum/index.php?threads/liste-teams-internes.82156/">Liste ici<br /></a></span></font></b><br /><b>Liste des exclusivités du moment - <span><a href="https://www3.yggtorrent.do/forum/index.php?threads/exclusivites.48192/">Liste ici</a></span></b></font>							<div class="date"><span class="ico_clock-o"></span> Publié le 01/08/2022 à 13:45 par <a href="#">Oracle</a></div>
+								
+						</div>
+					</section>
+
+																
+				
+
+		</div><!-- / row -->
+	</main>
+</div>
+	
+<footer>
+	<script type="text/javascript">
+
+	 if (!window._YGGConfig) {
+	 	window._YGGConfig = {};
+	 }
+	 window._YGGConfig = {
+	  	 layoutType: '',
+		 isWide: true,
+		 isMobile: false,
+		 isHttpsEnabled: 1,
+		 isLogged: false,
+		 memberNick: '',
+		 memberIdHash: '',
+		 memberGroup: '',
+		 rootURL: 'https://www3.yggtorrent.do/',
+		 showLoginForm: false,
+		 bannedAccount: false,
+		 segment4Uri: true	 };
+
+	</script>
+
+	<!-- JS includes -->
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/masterfb90.js?cacherkiller=11"></script>
+	<script type="text/javascript" src="assets/js/select2.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/js.cookie.min1a87.js?cachekiller=1"></script>
+	<script type="text/javascript" src="assets/js/bootstrap-notify.min.js"></script>
+	<script type="text/javascript" src="assets/js/jnotifier.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.countdown.js"></script>
+ 	<script src="../js.hcaptcha.com/1/api7d7c.js?hl=fr" async defer></script>
+    
+	<script type="text/javascript">
+	     $(function() {
+	     	var cookiePromo = null;
+	     	var canShowPromo = true;
+			
+			if(_YGGConfig.isLogged && localStorage.getItem('account_created') === null)  {
+				localStorage.setItem('account_created', true);
+			}
+			
+			if(_YGGConfig.isLogged && !Cookies.get('account_created')) {
+				Cookies.set('account_created', true, { expires: 365, domain: '.yggtorrent.do'});
+			}
+
+			if(Cookies.get('v5_promo_details')) {
+	     		cookiePromo = atob(Cookies.get('v5_promo_details'));
+	     		cookiePromo = JSON.parse(cookiePromo);
+
+	     		if(Math.floor(Date.now() / 1000) > cookiePromo.ts) {
+	     			canShowPromo = false;
+	     		}
+	     	}
+
+	     	$('.promo-close').click(function(e) {
+			   	e.stopPropagation();
+			   	Cookies.set('v5_remove_prom', true, { expires: new Date(new Date().getTime() + 60 * 60 * 1000), domain: '.yggtorrent.do'});
+			   	$('.promoblock').remove();
+			})
+
+	     	if(!Cookies.get('v5_remove_prom') && canShowPromo && !$('.promo-donation-page').length && _YGGConfig.isLogged && parseInt(_YGGConfig.memberGroup) === 0) {
+     			$('.promoblock').show();
+	     	}
+
+	        function getEndDate() {
+	           if(cookiePromo !== null) {
+              	return cookiePromo.countdown_date;
+	           }
+	           date = new Date();
+	           if (date.getHours() > 21) {
+	              date.setDate(date.getDate() + 1);
+	           }
+	           month = date.getMonth();
+	           month = month + 1;
+	           if (month <10) month = '0'+ month;
+	           year = date.getFullYear();
+	           day = date.getDate();
+	           hour = date.getHours();
+	           minute = date.getMinutes();
+	           second = date.getSeconds();
+	           var date_str = month + '/' + day +'/' + year + ' 23:59:59';
+	          // console.log(date_str)
+	           var data = JSON.stringify({countdown_date: date_str, ts: Math.floor(new Date(date_str).getTime() / 1000)});
+			   Cookies.set('v5_promo_details', btoa(data), { expires: 9, domain: '.yggtorrent.do'});
+	           return date_str;
+	        }
+
+	        var offset = new Date().getTimezoneOffset();
+	        var countdownOffset = ((offset*100)/60)/100 * -1;
+	        $('.countdown').countdown({
+	            date: getEndDate(),
+	            offset: countdownOffset,
+	            hideOnComplete: false
+	        });
+	     })
+	</script>
+	<div class="container">
+		<div class="copy text-center" style="line-height: 25px;">
+			<strong>2017-2022 YggTorrent v3.1- Aucun droit réservé</strong><br>
+			<strong><u>Don Bitcoin</u> : <span style="color: #f3de84;">bc1q5hewua96lwe6nvdp7sjzh9j0lf4uw9uev44ckl</span></strong><br>
+			<a rel="nofollow" href="https://www3.yggtorrent.do/engine/domains">Statuts de nos noms de domaine</a>
+			
+			<center>
+				<img style="width:110px; margin-top:15px" src="assets/img/footer.png">
+			</center>
+		</div>
+
+	</div>
+</footer>
+
+
+
+</body>
+
+<!-- Mirrored from yggtorrent.do/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Apr 2023 09:42:50 GMT -->
+</html>
+
